@@ -7,7 +7,7 @@
 #set -xv
 history_filename="drawercli_history"
 enable_history=0
-export url="https://raw.githubusercontent.com/u0a316/ActivityResource/refs/heads/curl/app_activity.txt"
+export url="https://raw.githubusercontent.com/u0a316/ListMyApps/refs/heads/curl/app_activity.txt"
 
 launch_RequireInternetConnection() {
     ping -c 1 google.com > /dev/null 2>&1
